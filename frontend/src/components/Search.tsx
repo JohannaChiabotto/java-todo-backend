@@ -13,6 +13,7 @@ export default function Search(props: SearchProps) {
     }
 
     return (
+
         <input onChange={onSearchTextChange}/>
     )
 }
