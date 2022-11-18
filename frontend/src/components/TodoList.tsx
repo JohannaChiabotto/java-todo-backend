@@ -7,7 +7,7 @@ type TodoListProps = {
 }
 export default function TodoList(props: TodoListProps) {
     const todoComponents = props.todos.map((todo: TodoEle) => {
-    return <Todo todo={props.todos}/>
+    return <Todo todo = {todo}/>
     })
     return (
         <div>
